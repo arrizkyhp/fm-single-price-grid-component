@@ -4,7 +4,7 @@ import Home from "pages/Home";
 
 function App() {
   return (
-    <Router basename="/single-price-grid-component">
+    <Router basename="/fm-single-price-grid-component">
       <Route exact path="/" component={Home} />
     </Router>
   );
