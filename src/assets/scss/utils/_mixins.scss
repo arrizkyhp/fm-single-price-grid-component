@@ -1,0 +1,22 @@
+@use "functions" as *;
+@use "variables" as *;
+
+@mixin flex-centering() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin grid-centering() {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin card-h1() {
+  font-size: rem(18);
+  line-height: rem(21);
+  letter-spacing: -0.03em;
+  margin-bottom: rem(18);
+}

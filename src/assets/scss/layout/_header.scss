@@ -1,0 +1,26 @@
+@use "../utils" as *;
+
+.header {
+  padding: rem(45) rem(65) rem(45) rem(35);
+  border-radius: rem(8) rem(8) 0 0;
+
+  &__title {
+    font-size: rem(24);
+    line-height: rem(28);
+    letter-spacing: -0.03em;
+    margin-bottom: rem(25);
+  }
+
+  &__sub {
+    font-size: rem(17);
+    line-height: rem(20);
+    letter-spacing: -0.005em;
+    margin-bottom: rem(10);
+  }
+
+  &__description {
+    max-width: rem(502);
+    line-height: rem(24);
+    letter-spacing: -0.03em;
+  }
+}

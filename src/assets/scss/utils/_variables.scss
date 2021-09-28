@@ -1,0 +1,36 @@
+@use "functions" as *;
+
+// Colors
+// Primary
+
+$cyan: hsl(179, 62%, 43%);
+$light-cyan: hsl(179, 47%, 52%);
+$yellow: hsl(71, 73%, 54%);
+
+// Neutral
+$light-gray: hsl(204, 43%, 93%);
+$gray-blue: hsl(218, 22%, 67%);
+$white: #ffffff;
+
+// Colors Pallete
+$colors: (
+  "cyan": $cyan,
+  "light-cyan": $light-cyan,
+  "yellow": $yellow,
+  "light-gray": $light-gray,
+  "gray-blue": $gray-blue,
+  "white": $white,
+);
+
+// Font size
+$base-font-size: rem(16) !default;
+
+// Font Weight
+$font-weight-400: 400;
+$font-weight-700: 700;
+
+// Border Radius
+$base-border-radius: rem(8) !default;
+
+// Box-Shadow
+$base-box-shadow: 0px 14px 27px rgba(152, 166, 189, 0.41), 0px 1.75302px 3.38082px rgba(152, 166, 189, 0.205);

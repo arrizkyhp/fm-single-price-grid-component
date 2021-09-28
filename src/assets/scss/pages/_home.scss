@@ -1,0 +1,21 @@
+@use "../utils" as *;
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "subscription why";
+
+  .header {
+    grid-area: header;
+  }
+
+  .subscription {
+    grid-area: subscription;
+  }
+
+  .why {
+    grid-area: why;
+  }
+}

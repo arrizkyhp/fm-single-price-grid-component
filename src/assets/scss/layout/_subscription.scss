@@ -1,0 +1,29 @@
+@use "../utils" as *;
+
+.subscription {
+  border-radius: 0 0 0 rem(8);
+  padding: rem(35) rem(0) rem(25) rem(35);
+
+  &__title {
+    @include card-h1();
+  }
+
+  &__pricing {
+    font-size: rem(32);
+    letter-spacing: -0.03em;
+    margin-bottom: rem(10);
+
+    span {
+      font-size: rem(16);
+      line-height: rem(19);
+      letter-spacing: -0.03em;
+      padding-left: rem(5);
+    }
+  }
+
+  &__description {
+    line-height: rem(18.7);
+    letter-spacing: -0.03em;
+    margin-bottom: rem(30);
+  }
+}
