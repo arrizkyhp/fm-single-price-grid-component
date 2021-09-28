@@ -26,4 +26,9 @@
     letter-spacing: -0.03em;
     margin-bottom: rem(30);
   }
+
+  @include breakpoint-max(sm) {
+    padding: rem(25) rem(22);
+    border-radius: 0;
+  }
 }

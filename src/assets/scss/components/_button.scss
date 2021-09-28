@@ -16,4 +16,8 @@
   &:hover {
     background: lighten($yellow, 15%);
   }
+
+  @include breakpoint-max(sm) {
+    max-width: 100%;
+  }
 }

@@ -9,6 +9,10 @@
     line-height: rem(28);
     letter-spacing: -0.03em;
     margin-bottom: rem(25);
+
+    @include breakpoint-max(sm) {
+      font-size: rem(20.5);
+    }
   }
 
   &__sub {
@@ -16,11 +20,24 @@
     line-height: rem(20);
     letter-spacing: -0.005em;
     margin-bottom: rem(10);
+
+    @include breakpoint-max(sm) {
+      font-size: rem(15);
+      margin-bottom: rem(15);
+    }
   }
 
   &__description {
     max-width: rem(502);
     line-height: rem(24);
     letter-spacing: -0.03em;
+
+    @include breakpoint-max(sm) {
+      font-size: rem(15);
+    }
+  }
+
+  @include breakpoint-max(sm) {
+    padding: rem(25) rem(22) rem(30) rem(22);
   }
 }

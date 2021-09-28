@@ -2,6 +2,7 @@
 
 .why {
   padding: rem(35) rem(0) rem(0) rem(35);
+  border-radius: 0 0 rem(8) 0;
 
   &__title {
     @include card-h1();
@@ -11,5 +12,10 @@
     font-size: rem(14);
     line-height: 140%;
     letter-spacing: -0.01em;
+  }
+
+  @include breakpoint-max(sm) {
+    padding: rem(25) 0 rem(30) rem(22);
+    border-radius: 0 0 rem(8) rem(8);
   }
 }
