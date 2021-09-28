@@ -1,3 +1,4 @@
+import Footer from 'layouts/Footer'
 import Header from 'layouts/Header'
 import Subscription from 'layouts/Subscription'
 import Why from 'layouts/Why'
@@ -9,6 +10,7 @@ export default function Home() {
             <Header />
             <Subscription />
             <Why />
+            <Footer />
         </div>
     )
 }
