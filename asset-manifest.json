@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fm-single-price-grid-component/static/css/main.f59ed6e7.chunk.css",
-    "main.js": "/fm-single-price-grid-component/static/js/main.6bfda774.chunk.js",
-    "main.js.map": "/fm-single-price-grid-component/static/js/main.6bfda774.chunk.js.map",
+    "main.js": "/fm-single-price-grid-component/static/js/main.c235697e.chunk.js",
+    "main.js.map": "/fm-single-price-grid-component/static/js/main.c235697e.chunk.js.map",
     "runtime-main.js": "/fm-single-price-grid-component/static/js/runtime-main.1541e170.js",
     "runtime-main.js.map": "/fm-single-price-grid-component/static/js/runtime-main.1541e170.js.map",
     "static/js/2.be486487.chunk.js": "/fm-single-price-grid-component/static/js/2.be486487.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1541e170.js",
     "static/js/2.be486487.chunk.js",
     "static/css/main.f59ed6e7.chunk.css",
-    "static/js/main.6bfda774.chunk.js"
+    "static/js/main.c235697e.chunk.js"
   ]
 }
