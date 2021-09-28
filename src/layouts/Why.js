@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Why() {
     return (
-      <section className="why bg-light-cyan text-white">
+      <div className="why bg-light-cyan text-white">
         <h1 className="why__title">Why Us</h1>
         <p className="why__description text-light-gray">
           Tutorials by industry experts <br />
@@ -13,6 +13,6 @@ export default function Why() {
           Flashcard decks <br />
           New videos every week <br />
         </p>
-      </section>
+      </div>
     );
 }
