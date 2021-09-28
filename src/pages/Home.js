@@ -6,11 +6,11 @@ import React from 'react'
 
 export default function Home() {
     return (
-        <div className="container">
+        <main className="container">
             <Header />
             <Subscription />
             <Why />
             <Footer />
-        </div>
+        </main>
     )
 }
